@@ -1,0 +1,239 @@
+.table-data {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    color: #342E37; /* dark text */
+    margin-top: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.table-data .order {
+    flex-grow: 1;
+    flex-basis: 500px;
+    background: #F9F9F9; /* light background */
+    padding: 24px;
+    border-radius: 20px;
+    overflow-x: auto;
+}
+
+.table-data .order .head {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    gap: 16px;
+}
+
+.table-data .order .head h3 {
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.table-data .order table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-data .order table th {
+    text-align: left;
+    font-size: 13px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.table-data .order table td {
+    padding: 16px 0;
+    height: 100px;
+}
+
+.table-data .order table tr td:first-child {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-left: 6px;
+}
+
+.table-data .order table td img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.table-data .order table tbody tr:hover {
+    background: #eee;
+}
+
+.table-data .order table td .status {
+    font-size: 10px;
+    padding: 6px 16px;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.table-data .order table td .status.completed {
+    background: #52d04e;
+}
+
+.table-data .order table td .status.process {
+    background: #52d04e;
+    color: #ffffff; /* dark text for visibility */
+}
+
+.table-data .order table td .status.pending {
+    background: #d41010;
+}
+.body-profil { 
+  background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+  display:block;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;   /* toute la hauteur visible */
+  width: 100px;        
+  margin: 0;
+  padding: 0;
+}
+
+.conteneur {
+  width: 100vw;              /* prend toute la largeur de la fenÃªtre */
+  height: 100vh;             /* prend toute la hauteur visible */
+  margin: 0;                 /* supprime le centrage automatique */
+  background: white;
+  padding: 20px;
+  border-radius: 0;          /* plus dâ€™arrondi si tu veux plein Ã©cran */
+  box-sizing: border-box;
+}
+
+
+
+
+.titre-page {
+  margin-bottom: 20px;
+  text-align: left;
+  color: #3a5946;
+}
+
+.carte {
+  box-shadow: 0 1px 4px rgba(24, 28, 33, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.bloc {
+  display: flex;
+}
+
+.colonne-menu {
+  width: 25%;
+  border-right: 1px solid #ddd;
+}
+
+.menu-profil {
+  display: flex;
+  flex-direction: column;
+}
+
+.lien-menu {
+  padding: 15px;
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px solid #eee;
+}
+
+.lien-menu.actif,
+.lien-menu:hover {
+  font-weight: bold;
+  background: #f0f0f0;
+}
+
+.colonne-contenu {
+  flex: 1;
+  padding: 20px;
+}
+
+.photo-section {
+  display: flex;
+  align-items: center;
+}
+
+.photo-profil {
+  width:90px;
+  height:90px;
+  border-radius: 50%;
+}
+
+.zone-boutons {
+  margin-left: 20px;
+}
+
+.btn-photo {
+  border: 1px solid #3d6d51;
+  background: transparent;
+  color: #2e7048;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.photo-input {
+  display: none;
+}
+
+.btn-simple {
+    background-color: #3d6d51;
+    border: 1px solid #3d6d51;
+    background: transparent;
+    color: #555;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-principal {
+  background: #3d6d51;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.actions {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.texte-aide {
+  color: #888;
+  font-size: 12px;
+}
+
+.formulaire {
+  margin-top: 20px;
+}
+
+.champ {
+  margin-bottom: 15px;
+}
+
+.champ label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  text-align:left;
+}
+
+.champ input,
+.champ textarea,
+.champ select {
+    background-color: #eee;
+    border: none;
+    margin: 8px 0;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 400px;
+    outline: none;
+}

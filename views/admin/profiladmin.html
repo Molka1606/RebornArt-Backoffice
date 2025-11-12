@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Réglages du compte Admin</title>
+  <link href="css/admin.css" rel="stylesheet">
+  <link href="../../assets/css/templatemo-space-dynamic.css" rel="stylesheet">
+</head>
+<body class="body-profil">
+  <div class="conteneur">
+    <h2 class="titre-page">Réglages du compte Admin</h2>
+
+    <div class="carte">
+      <div class="bloc">
+        <div class="colonne-menu">
+          <div class="menu-profil">
+            <a href="../admin/profiladmin.html" class="lien-menu">Informations</a>
+            <a href="../forgot-password.html" class="lien-menu">Changer le mot de passe</a>
+          </div>
+        </div>
+        <div class="colonne-contenu">
+          <div class="photo-section">
+            <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="Photo Admin" class="photo-profil">
+            <div class="zone-boutons">
+              <button class="btn-photo" type="file">Ajouter une photo</button>
+              <button class="btn-simple">Réinitialiser</button>
+              <p class="texte-aide">Formats : JPG , GIF , PNG . Taille max : 800K .</p>
+            </div>
+          </div>
+          <form action="#" method="post" class="formulaire">
+            <div class="champ">
+              <label for="nom">Nom d'administrateur</label>
+              <input type="text" id="nom" name="nom" placeholder="Entrer le nom">
+            </div>
+            <div class="champ">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Entrer l'email">
+            </div>
+            <div class="champ">
+              <label for="date_naissance">Date de naissance</label>
+              <input type="date" id="date_naissance" name="date_naissance">
+            </div>
+            <div class="actions">
+              <button type="submit" class="btn-principal">Sauvegarder</button>
+              <button type="reset" class="btn-simple">Annuler</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
